@@ -1,0 +1,318 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    scrollbar-width: none;
+    
+    
+}
+:root{
+    --primary-color: #E50914;
+    --secondary-color: #FFFFFF;
+    --footer-font:#757575;
+
+   
+}
+
+body{
+    width: 100%;
+    height: 200vh;
+    background-color: black;
+    color: var(--secondary-color);
+}
+.container{
+    width: 100%;
+    background-image: url(./images/bd61de4608a61f94c66215df741f2e79.png);
+    background-color: #00000080;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px rgb(131, 129, 129) solid;
+    background-color: #00000080;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 5;
+
+}
+.left-nav-button{
+    display: flex;
+    gap: 2rem;
+}
+option{
+    color: white;
+    border: 1px solid white;
+}
+.harmburger{
+    display: none;
+}
+.sign-in-btn{
+    background-color:var(--primary-color) ;
+}
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    line-height: 1
+    
+
+}
+.hero-section h1{
+    width: 70%;
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold;
+    text-wrap: wrap;
+    
+}
+.hero-section h2{
+   
+    font-size: 35px;
+    text-align: center;
+    font-weight: lighter;
+    text-wrap: wrap;
+}
+.inputs-items{
+    display: flex;
+    
+}
+.inputs-items input{
+    width: 100%;
+    height: 3rem;
+}
+.get-started-button{
+    width: 130px;
+    background-color: var(--primary-color);
+    border: none;
+    outline: none;
+
+}
+
+.enjoy-tv{
+    width: 100%;
+    height: 60vh;
+    padding-top: 50px;
+    border: 3px #222222 solid ;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-side{
+    width: 15%;
+}
+.left-side h1{
+    font-size: 35px;
+}
+.left-side p{
+    font-weight: 400;
+    font-size: 15px;
+    text-wrap: auto;
+}
+.Download-section{
+    width: 100%;
+    height: 60vh;
+    padding-top: 50px;
+    border: 3px #222222 solid ;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.watch-section{
+    width: 100%;
+    height: 60vh;
+    padding-top: 50px;
+    border: 3px #222222 solid ;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.profile-kid{
+    width: 100%;
+    height: 60vh;
+    padding-top: 50px;
+    border: 3px #222222 solid ;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.right-side{
+    width: 15%;
+}
+.right-side h1{
+    font-size: 35px;
+}
+.right-side p{
+    font-weight: 400;
+    font-size: 15px;
+    text-wrap: auto;
+    line-height: 2;
+}
+.enjoy-tv img{
+    background-image: url(./images/bd61de4608a61f94c66215df741f2e79.png); 
+}
+
+footer{
+    width: 100%;
+    height: 60vh;
+    padding-top: 50px;
+    border-top: 3px #222222 solid ;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: var(--footer-font);
+
+}
+.footer-child-container{
+    width: 50%;
+    height: 30vh;
+}
+.links-container{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.first-footer-link{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #757575;
+}
+.first-footer-link a{
+    text-decoration: none;
+    color: var(--footer-font);
+}
+
+
+
+/* mobile version */
+
+
+@media (max-width:600px){
+    body{
+        width: 100%;
+       
+    }
+    main{
+        width: 100%;
+    }
+    nav{
+        position: sticky;
+        left: 0;
+        top: 0;
+        z-index: 2;
+    }
+    .container{
+    background-image: url(./images/bd61de4608a61f94c66215df741f2e79.png);
+    background-color: #00000080;
+    background-size: cover;
+    }
+    .hero-section{
+
+    }
+    .netflex-logo img{
+        width: 100px;
+    }
+    .left-nav-button{
+        display: none;
+    }
+    .harmburger{
+        width: ;
+    }
+    .hero-section{
+        line-height: 1.54;
+    }
+    .hero-section h1{
+       
+        font-size: 25px;
+        text-align: center;
+        font-weight: normal;
+
+    }
+    .hero-section h2{
+   
+        font-size: 20px;
+        text-align: center;
+        font-weight: lighter;
+        text-wrap: wrap;
+    }
+    .inputs-items{
+
+    }
+    .enjoy-tv{
+        width: 100%;
+        height: 55vh;
+        padding-top: 50px;
+        border: 3px #222222 solid ;
+        border-left: none;
+        border-right: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .left-side{
+        width: 100%;
+    }
+    .left-side h1{
+        font-size: 35px;
+    }
+    .left-side p{
+        font-weight: 400;
+        font-size: 15px;
+        text-wrap: auto;
+    }
+    
+    
+    .right-side{
+        width: 100%;
+    }
+    .right-side h1{
+        font-size: 35px;
+    }
+    .right-side p{
+        font-weight: 400;
+        font-size: 15px;
+        text-wrap: auto;
+        line-height: 2;
+    }
+    .enjoy-tv img{
+        background-image: url(./images/bd61de4608a61f94c66215df741f2e79.png); 
+    }
+    
+}
