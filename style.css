@@ -99,6 +99,7 @@ option{
 .get-started-button{
     width: 130px;
     background-color: var(--primary-color);
+    color: white;
     border: none;
     outline: none;
 
@@ -251,9 +252,7 @@ footer{
     .left-nav-button{
         display: none;
     }
-    .harmburger{
-        width: ;
-    }
+
     .hero-section{
         line-height: 1.54;
     }
